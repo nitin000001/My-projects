@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.main{
+    background-color: #fff;
+    height: 300px;
+    width: 350px;
+    padding: 3rem;
+    margin-top: 2rem;
+    border: 2px solid #000;
+    border-radius: 1rem;
+}
+
+h1{
+    display: inline;
+}
+h2{
+    display: inline;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    border-radius: 5px;
+    background: darkcyan;
+}
+
+.container{
+  margin-top: 5rem;
+}
